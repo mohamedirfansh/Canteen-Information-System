@@ -15,14 +15,18 @@ A real-time canteen information system software that can store and display all t
 ![Homescreen](images/home.png)  
 The homescreen displays the current date and time. It allows the user to view all the stalls, set their preferred date and time or find out how to use the application.  
 
+
 ![All stalls page](images/all_stalls.png)  
 Users can view all the stalls that are available in the application in the "All Stalls" page.  
+
 
 ![KFC page](images/kfc_page.png)  
 Users can view all the menu items of a particular stall according to either the set date/time or the current system date/time. They can also add a review of a specific stall.  
 
+
 ![Waiting Time](images/waiting_time.png)  
 The application will show the waiting time for a particular stall based on the number of people waiting in queue.  
+
 
 ![Set date & time](images/set_datetime.png)  
 The user can check the menus of stalls based on their preferred date and time. They will be prompted to set it through a calendar.  
