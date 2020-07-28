@@ -74,6 +74,3 @@ Finally, run ```main.py```.
 This project is licensed under the **[MIT License](http://opensource.org/licenses/mit-license.php)** - see the [LICENSE](https://github.com/mohamedirfansh/Canteen-Management-System/blob/master/LICENSE) file for more details.  
 Copyright © 2020 Mohamed Irfan.
 
-## Note
-
-This repo is no longer maintained and was submitted as part of the coursework for Introduction to Computational Thinking at Nanyang Technological University, Singapore.
