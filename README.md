@@ -72,5 +72,4 @@ Finally, run ```main.py```.
 [![GitHub](https://img.shields.io/github/license/mohamedirfansh/Canteen-Management-System)](https://github.com/mohamedirfansh/Canteen-Management-System/blob/master/LICENSE)
 
 This project is licensed under the **[MIT License](http://opensource.org/licenses/mit-license.php)** - see the [LICENSE](https://github.com/mohamedirfansh/Canteen-Management-System/blob/master/LICENSE) file for more details.  
-Copyright © 2020 Mohamed Irfan.
 
