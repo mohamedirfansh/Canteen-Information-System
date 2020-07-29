@@ -42,7 +42,7 @@ You will need the following to run the program:
 
 ### Installing and running
 
-Install the required modules by running the following code:
+Install the required modules by running the following commands in your terminal:
 ```
 pip install pillow
 pip install tkcalendar
