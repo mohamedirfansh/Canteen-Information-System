@@ -1,8 +1,8 @@
-# Canteen Management System
+# Canteen Information System
 
 ![Cover](images/cover.png)
 
-A real-time canteen information system software that can store and display all the information of stalls in the NTU North Spine Canteen. It can:  
+A real-time canteen information software that can store and display all the information of stalls in the NTU North Spine Canteen. It can:  
 + Store and display stall information
 + Store and display stall menus
 + Display stall information and menus based on current system date and time
@@ -50,7 +50,7 @@ pip install pygame
 ```
 Then clone this repo with:
 ```
-git clone https://github.com/mohamedirfansh/Canteen-Management-System.git
+git clone https://github.com/mohamedirfansh/Canteen-Information-System.git
 ```
 Finally, run ```main.py```.
 
@@ -69,7 +69,7 @@ Finally, run ```main.py```.
 
 ## License
 
-[![GitHub](https://img.shields.io/github/license/mohamedirfansh/Canteen-Management-System)](https://github.com/mohamedirfansh/Canteen-Management-System/blob/master/LICENSE)
+[![GitHub](https://img.shields.io/github/license/mohamedirfansh/Canteen-Information-System)](https://github.com/mohamedirfansh/Canteen-Information-System/blob/master/LICENSE)
 
-This project is licensed under the **[MIT License](http://opensource.org/licenses/mit-license.php)** - see the [LICENSE](https://github.com/mohamedirfansh/Canteen-Management-System/blob/master/LICENSE) file for more details.  
+This project is licensed under the **[MIT License](http://opensource.org/licenses/mit-license.php)** - see the [LICENSE](https://github.com/mohamedirfansh/Canteen-Information-System/blob/master/LICENSE) file for more details.  
 
