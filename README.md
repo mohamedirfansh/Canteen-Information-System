@@ -10,7 +10,7 @@ A real-time canteen information software that can store and display all the info
 + Calculate estimated waiting time for the stall by asking the user to enter the number of people in the queue
 + Allow to check the operating hours for all the stalls
 
-## Overview
+## 📖 Overview
 
 ![Homescreen](images/home.png)  
 The homescreen displays the current date and time. It allows the user to view all the stalls, set their preferred date and time or find out how to use the application.  
@@ -31,8 +31,8 @@ The application will show the waiting time for a particular stall based on the n
 ![Set date & time](images/set_datetime.png)  
 The user can check the menus of stalls based on their preferred date and time. They will be prompted to set it through a calendar.  
 
-## Getting started
-### Prerequisites
+## 🚀 Getting started
+### 📋 Prerequisites
 
 You will need the following to run the program:
 + Python 3
@@ -40,7 +40,7 @@ You will need the following to run the program:
 + TKCalendar
 + Pygame
 
-### Installing and running
+### ⚡️ Installing and running
 
 Install the required modules by running the following commands in your terminal:
 ```
@@ -54,20 +54,20 @@ git clone https://github.com/mohamedirfansh/Canteen-Information-System.git
 ```
 Finally, run ```main.py```.
 
-## Built with
+## 🛠️ Built with
 
 + [Python 3](https://www.python.org/) - The main language used to develop the application.
 + [Tkinter](https://docs.python.org/3/library/tkinter.html) - The main module used to develop the GUI for the application.
 + [Pygame](https://www.pygame.org/docs/) - Used to play the music in the application.
 + [TKCalendar](https://pypi.org/project/tkcalendar/) - Used for the user to enter their preferred date and time.
 
-## Developers
+## 👨‍💻 Developers
 
 + [Mohamed Irfan](https://github.com/mohamedirfansh)
 + Muhammad Zufiqqar
 + Berlynn
 
-## License
+## 📄 License
 
 [![GitHub](https://img.shields.io/github/license/mohamedirfansh/Canteen-Information-System)](https://github.com/mohamedirfansh/Canteen-Information-System/blob/master/LICENSE)
 
