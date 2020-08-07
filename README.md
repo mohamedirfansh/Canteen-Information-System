@@ -9,6 +9,7 @@ A real-time canteen information software that can store and display all the info
 + Display stall information and menus based on user defined date and time
 + Calculate estimated waiting time for the stall by asking the user to enter the number of people in the queue
 + Allow to check the operating hours for all the stalls
++ Allows users to view and give reviews to stalls
 
 ## 📖 Overview
 
@@ -21,7 +22,7 @@ Users can view all the stalls that are available in the application in the "All 
 
 
 ![KFC page](images/kfc_page.png)  
-Users can view all the menu items of a particular stall according to either the set date/time or the current system date/time. They can also add a review of a specific stall.  
+Users can view all the menu items of a particular stall according to either the set date/time or the current system date/time. They can also add a review for a specific stall.  
 
 
 ![Waiting Time](images/waiting_time.png)  
