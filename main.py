@@ -90,7 +90,7 @@ class StartPage(Frame):
         self.button_playMusic.place(relx=0.90, rely=0.01)
 
     
-    # --------Function to pause or resume playing the background music. Funtion done by: NEO RUI XUAN BERLYNN-----------
+    # --------Function to pause or resume playing the background music------------------------
     def music(self):
         self.musicIsPlaying = not self.musicIsPlaying
         if self.musicIsPlaying:
@@ -102,15 +102,15 @@ class StartPage(Frame):
             pygame.mixer.music.pause()
             self.musicIsPlaying = False
 
-    # --------Clock function to display current time. Done by: MUHAMMAD IRFAN----------------
+    # --------Clock function to display current time---------------------------
     def clock(self):
         self.now = datetime.now()
-        self.time_str = self.now.strftime("%d/%m/%Y %H:%M:%S")  # .strftime('%I:%M:%S',time.localtime())
+        self.time_str = self.now.strftime("%d/%m/%Y %H:%M:%S")
         if self.time_str != '':
             self.label_time.config(text=self.time_str, font='helvetica 26', fg='white', bg='#383838')
         self.after(100, self.clock)
 
-    # --------Function to display calendar and time for user's input. Functions done by: MUHUAMMAD ZUFIQQAR----------------
+    # --------Function to display calendar and time for user's input---------------------------
     def calender(self, controller):
         global database_choice, day, time, date
 
@@ -402,7 +402,7 @@ class IndividualStallPage(Frame):
                                     highlightthickness=0, command=self.stallReviews)
         self.review_button.place(relx=0.71, rely=0.87, anchor="ne")
 
-    # -------Store the review in other own stall's file that user has entered. Function done by: NEO RUI XUAN BERLYNN------------------
+    # -------Store the review in other own stall's file that user has entered-------------------
     def postReviews(self, database, frameReview, userReview):
         # -------Append the new review to existing reviews of the stall------------------
         with open(database['Review'], 'a+') as file:
@@ -412,7 +412,7 @@ class IndividualStallPage(Frame):
         frameReview.destroy()
         self.stallReviews()
 
-    # -------Function that display the reviews of the stall and user can post review too. Function done by: NEO RUI XUAN BERLYNN------------------
+    # -------Function that display the reviews of the stall and user can post review too---------------------
     def stallReviews(self):
         global database_choice, day, time
 
@@ -446,7 +446,7 @@ class IndividualStallPage(Frame):
             file.seek(0)
             review.config(text=file.read())
 
-    # -------Update the time, day, date to current and display the stall's menu and info based on that conditions. Function done by: MUHAMMAD ZUFIQQAR------------------
+    # -------Update the time, day, date to current and display the stall's menu and info based on that conditions------------------
     def resetTime(self):
         # -------Global variable userInputCondition is used to check if the timing, day, date is based on datetime.now() or user's input------------------
         global userInputCondition, date, time, day
@@ -456,7 +456,7 @@ class IndividualStallPage(Frame):
         date, time, day = updateTime()
         self.execute()
 
-    # -------Function for displaying estimated queue time for the stall. Functions done by: MUHAMMAD ZUFIQQAR ------------------
+    # -------Function for displaying estimated queue time for the stall-------------------
     def print_queue(self):
         global database_choice, day, time
 
@@ -498,7 +498,7 @@ class IndividualStallPage(Frame):
                                                     (database['Queue'] * (noOfpax + 1))))
                         break
 
-    # -------Function to display Operating Hours of a stall. Function done by: NEO RUI XUAN BERLYNN-----------------
+    # -------Function to display Operating Hours of a stall--------------------
     def print_OP_Hours(self):
         global database_choice, day, time
 
@@ -506,7 +506,7 @@ class IndividualStallPage(Frame):
         database = choosing_database(database_choice, time, day)
         messagebox.showinfo(title='Operating Hours', message=database['Hours'])
 
-    # --------Function to display calendar and time for user's input. Functions done by: MUHAMMAD ZUFIQQAR----------------
+    # --------Function to display calendar and time for user's input----------------
     def calender(self, controller):
         global database_choice, day, time, date
 
@@ -573,7 +573,7 @@ class IndividualStallPage(Frame):
                                                             hour.get(), minute.get()))
         button.pack(side='bottom')
 
-    # -------Run this function first before showing IndividualStallPage to display the correct stall info and menu. Function done by: MUHAMMAD ZUFIQQAR-------------
+    # -------Run this function first before showing IndividualStallPage to display the correct stall info and menu-------------
     def execute(self):
         global database_choice, day, time
 
